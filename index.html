@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="myCss.css">
+<body>
+<div class="calculator">
+<h1 class="head">BMI CALCULATOR</h1>
+<!-- <img id="male" src="male1.svg">
+<img id="female" src="female1.svg"> -->
+<div class="age">Age:<input type="number"  min="1" max="124" maxlength='3' id="take_age"><br>
+    </div>
+    <div class="weight">
+Weight:<input type="number" maxlength='3' min="1" max="300" id="take_weight"><br>
+</div><div class="height">
+Height:<input type="number" maxlength='3' min="10" max="300" id="take_height"><br>
+</div>
+<button type="button" id="save_value">Calculate My BMI</button>        
+
+<br>
+<label>Your BMI is: <span id="bmi_value"></span></label>
+<br>
+<button type="button" id="calculate_data">Am I healthy?</button>
+<br>
+<label><span id="health_result"></span></label>
+</div>
+
+<script src="myScript.js"></script>
+</body>
+</html>

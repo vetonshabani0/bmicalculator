@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+   
+}
+.calculator{
+    background-color: #00254d;
+    margin: 50px 135px;
+    border: solid black ;
+    border-radius: 30px 5px 30px 5px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    color:white;
+;
+    
+}
+button{
+    size:20%;
+    border-radius: 2px 2px 12px 2px;;
+    color:black;
+    background-color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input{
+    border-radius: 15px;
+    width: 50px;
+    font-size: large;
+    color:cornflowerblue;
+    margin-left: 20px;
+    background-color: black;
+}
+button:hover{
+    font-size: larger;
+}
+button:checked{
+    color:blueviolet;
+}
+label{
+    font-size: x-large;
+}
+.age{
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: -30px;  
+    margin-bottom: 10px;  
+}
+.weight{
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.height{
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
